@@ -1,0 +1,395 @@
+*{
+     margin: 0px;
+     padding: 0px;
+}
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: "montserrat", sans-serif;
+}
+
+header{ 
+    display: flex;
+    justify-content: space-around;
+}
+
+.logoDiseño {
+    height:60px;         
+    padding: 5px 0;
+}
+
+.navContenedor{
+    font-size: 2.2rem;
+    text-align: right;
+    display: flex;
+}
+
+a.nav-link {
+    font-size: 1.8rem;
+    color:#77a612;
+}
+
+/* .tituloColor {
+    color: #Edf2c2;
+    opacity: 0.7;
+
+} */
+.estiloHeader{
+    background-color: #000012;
+    justify-content:center;
+}
+
+h1,h2,h3 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 12rem;
+    z-index: 2;
+}
+
+h2 {
+    font-size: 11rem;
+    z-index: 2;
+}
+
+h3 {
+    font-size: 4rem;
+}
+
+h4{
+    font-size: 2rem;
+}
+
+.h3Color {
+    color: rgb(10, 10, 10);
+}
+
+a {
+    color:#77a612 !important;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.itemConcientizacion{
+    color:#77a612;
+    background-color: transparent;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 8px; 
+}
+
+p {
+    
+    color: #3E5902;
+    font-size: 2rem;
+    width: 70%;
+    text-align: center;
+    
+}
+
+.imagen-ajuste-tamaño{
+    width: 600px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+th {
+background-color: #77a612;
+color: white;
+}
+
+.inicioBkg {
+    height: 400px;
+    position:absolute;
+}
+
+
+.imagenCard{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 25rem;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.sectionH3 {
+    color: #172601;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.bloqueVideo, .bloqueParrafoH3 {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    position: relative;
+    background: linear-gradient(180deg, rgba(39, 37, 37, 0.75), black);
+    z-index: 1;
+}
+
+.iconosRedesSocial{
+    width: 40px;
+    padding: 5px 7px 5px 0px;
+}
+
+.textRedes{
+    font-size:1.5rem;
+}   
+.bloqueRedes{
+    display:flex;
+    align-items:center;
+}
+
+.formatoTituloH3{
+    text-align: center;
+    display:flex;
+    justify-content:center;
+    
+    
+}
+.parrafoFront{
+    position: absolute;
+    z-index: 1  ;
+
+}
+
+.bloqueParrafoH3 {
+    position: relative;
+}
+
+.ajustePH3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.sectionConcientizacion{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+    height: 100%;
+}
+
+.listaConcientizacion{
+    text-align: center;
+    display:flex;
+    align-items:center;    
+}
+.stikyWsp {
+    width:6vw;
+    position:fixed;
+    bottom: 6vh;
+    right: 10px;
+    z-index: 3;
+}
+
+
+.sectionGrid{
+    height: 100%;
+    display: grid;
+    grid-template-rows: 400px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "a1 a2 a3";
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+article.articleGrid1{
+    grid-area: a1;
+    
+}
+
+article.articleGrid2{
+    grid-area: a2;
+}
+
+article.articleGrid3{
+    grid-area: a3;
+}
+
+
+
+.iconBurguer{
+    display: none;
+
+
+}
+.imagenBurguer{
+    width:30px;
+
+}
+
+/*XS */
+@media only screen and (max-width:600px){
+    .iconBurguer {
+        display: block;
+    }
+    .navContenedor{
+        display: none;
+    }
+    h1{
+        font-size: 7.5rem;
+    }
+
+    h3{
+        font-size: 4.5rem; 
+    }
+
+    h2 {
+        font-size:6.5rem;
+    }
+
+    p {
+        font-size:1.5rem;
+    }
+
+    section {
+        height: 350px;
+    }
+
+    .logoDiseño{
+        height:45px;
+    }
+
+    .iconosRedesSocial{
+        width: 30px;
+        padding: 5px 7px 5px 0px;
+    }
+
+    .textRedes {
+        font-size: 1.3rem;
+    }
+    header {
+        justify-content: space-between;
+        margin: 0 30px;
+        align-items:center;
+    }
+
+    .inicioBkg{
+        height: 260px;
+    }
+}
+
+@media only screen and ( max-width: 900px){
+    .navContenedor{
+        font-size: 1.5rem;
+    }
+
+}
+
+
+.parrafoConcientizacion{
+    padding: 20px 0;
+}
+
+.cardIdeas {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: #edf2c2;
+    height: 100%;
+    padding:10px;
+    box-sizing: border-box;
+    box-shadow: 3px 3px #8c8c8c;
+}
+
+.tituloImgCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    align-self: center;
+}
+
+.pIdeas {
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+}
+
+.inputContacto{
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 220px;
+    height: 25px;
+}
+
+.inputForm {
+    width: 70%;
+}
+
+.contInputLabel{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+    align-items:center;
+}
+
+
+.radioCont {
+    margin: 10px 0;
+}
+
+.tituloContacto{
+    margin: 20px 0;
+    color: #172601;
+}
+
+.contBotones{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.boton {
+    border: 1px solid none;
+    padding: 5px;
+}
+li:hover{
+    background-color: #ecf22e;
+    border-radius: 4px;
+    border-style: 1px solid;
+    transition: 0.5s;
+}
+
+#carousel-cont {
+    height: 100%;
+}
+
+.img-carousel {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carrouselText{
+    font-size:9rem;
+    font-weight: bold;
+    color: #Edf2c2;
+    opacity: 0.5;
+    }
+    
+
+.carousel-inner {
+    flex-direction: row;
+}

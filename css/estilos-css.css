@@ -1,0 +1,89 @@
+.estirado, section, section > div {
+  width: 100%;
+  display: flex; }
+
+section {
+  height: 400px; }
+  section > div {
+    flex-direction: column;
+    align-items: center; }
+
+footer {
+  background-color: #172601;
+  color: #FFFFFF;
+  font-size: 3rem;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center; }
+  footer__redes {
+    padding: 10px 0; }
+    footer__redes__bloqueRedes {
+      display: flex;
+      align-items: center; }
+      footer__redes__bloqueRedes .iconosRedesSocial {
+        width: 40px;
+        padding: 5px 7px 5px 0px; }
+      footer__redes__bloqueRedes .textRedes {
+        font-size: 1.5rem; }
+
+.articuloConcientizacion {
+  display: grid;
+  height: 100%;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "c1 c2 c3"
+ "c4 c5 c6";
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  padding: 10px 20px; }
+  .articuloConcientizacion .cardConcientizacion {
+    position: relative;
+    height: 400px;
+    width: 100%; }
+    .articuloConcientizacion .cardConcientizacion .descripcionCard {
+      position: absolute;
+      top: 75%;
+      width: 100%;
+      height: 25%;
+      background-color: rgba(255, 255, 255, 0.7);
+      padding: 5px;
+      box-sizing: border-box; }
+      .articuloConcientizacion .cardConcientizacion .descripcionCard .parrafoCard {
+        font-size: 1.5rem;
+        text-align: left;
+        width: 100%; }
+  .articuloConcientizacion .cardGrid1 {
+    grid-area: c1; }
+  .articuloConcientizacion .cardGrid2 {
+    grid-area: c2; }
+  .articuloConcientizacion .cardGrid3 {
+    grid-area: c3; }
+  .articuloConcientizacion .cardGrid4 {
+    grid-area: c4; }
+  .articuloConcientizacion .cardGrid5 {
+    grid-area: c5; }
+  .articuloConcientizacion .cardGrid6 {
+    grid-area: c6; }
+
+.imagenBasuraAgua {
+  background-image: url("../../Multimedia/basura_agua.jpg"); }
+
+.imagenBasuraCalle {
+  background-image: url("../../Multimedia/basura_calle.jpg"); }
+
+.imagenAguaManos {
+  background-image: url("../../Multimedia/agua_manos.jpg"); }
+
+.imagenVeganismo {
+  background-image: url("../../Multimedia/veganismo.jpg"); }
+
+.imagenHumoFabrica {
+  background-image: url("../../Multimedia/humo_fabrica.jpg"); }
+
+.imagenCalentamiento {
+  background-image: url("../../Multimedia/calentamiento.jpg"); }
+
+.tituloColor {
+  color: #Edf2c2;
+  opacity: 0.7; }
