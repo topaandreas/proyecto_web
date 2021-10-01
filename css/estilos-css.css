@@ -32,8 +32,7 @@ footer {
   height: 100%;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-areas: "c1 c2 c3"
- "c4 c5 c6";
+  grid-template-areas: "c1 c2 c3" "c4 c5 c6";
   grid-column-gap: 20px;
   grid-row-gap: 20px;
   padding: 10px 20px; }
@@ -67,22 +66,22 @@ footer {
     grid-area: c6; }
 
 .imagenBasuraAgua {
-  background-image: url("../../Multimedia/basura_agua.jpg"); }
+  background-image: url("../Multimedia/basura_agua.jpg"); }
 
 .imagenBasuraCalle {
-  background-image: url("../../Multimedia/basura_calle.jpg"); }
+  background-image: url("../Multimedia/basura_calle.jpg"); }
 
 .imagenAguaManos {
-  background-image: url("../../Multimedia/agua_manos.jpg"); }
+  background-image: url("../Multimedia/agua_manos.jpg"); }
 
 .imagenVeganismo {
-  background-image: url("../../Multimedia/veganismo.jpg"); }
+  background-image: url("../Multimedia/veganismo.jpg"); }
 
 .imagenHumoFabrica {
-  background-image: url("../../Multimedia/humo_fabrica.jpg"); }
+  background-image: url("../Multimedia/humo_fabrica.jpg"); }
 
 .imagenCalentamiento {
-  background-image: url("../../Multimedia/calentamiento.jpg"); }
+  background-image: url("../Multimedia/calentamiento.jpg"); }
 
 .tituloColor {
   color: #Edf2c2;

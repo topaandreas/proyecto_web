@@ -10,7 +10,7 @@ section {
     @extend .estirado;
     height: 400px;
 
-    div {
+    > div {
         @extend .estirado;
         flex-direction: column;
         align-items: center;
@@ -89,7 +89,7 @@ footer {
 @each $valor, $direccion in $imagenes {
 
     .imagen#{$valor} {
-        background-image: url("../../Multimedia/#{$direccion}");
+        background-image: url("../Multimedia/#{$direccion}");
     }
 }
 
