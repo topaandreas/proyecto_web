@@ -29,6 +29,13 @@ header{
 a.nav-link {
     font-size: 1.8rem;
     color:#77a612;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 1s ease;
+    padding: .5rem 1rem 0;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid #77a612;
 }
 
 /* .tituloColor {
@@ -365,12 +372,12 @@ article.articleGrid3{
     border: 1px solid none;
     padding: 5px;
 }
-li:hover{
+/* li:hover{
     background-color: #ecf22e;
     border-radius: 4px;
     border-style: 1px solid;
     transition: 0.5s;
-}
+} */
 
 #carousel-cont {
     height: 100%;
