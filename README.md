@@ -7,3 +7,4 @@ Andrea Topa 2021
 Se utilizó **HTML** para las vistas. 
 Se integró **CSS** para el estilo también se integro **Bootstrap** y **SASS** como procesador de CSS.
 Se incorporó **SEO** para un mejor posicionamiento. 
+Se puede ver el sitio web desde aquí: https://ecoaccion.000webhostapp.com/index.html
