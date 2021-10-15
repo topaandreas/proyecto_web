@@ -26,6 +26,12 @@ header{
     display: flex;
 }
 
+.nav-sticky {
+    position: sticky;
+    top: 0px;
+    z-index: 3;
+}
+
 a.nav-link {
     font-size: 1.8rem;
     color:#77a612;
@@ -63,7 +69,7 @@ h2 {
 }
 
 h3 {
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 h4{
@@ -91,7 +97,7 @@ a {
 p {
     
     color: #3E5902;
-    font-size: 2rem;
+    font-size: 1.55rem;
     width: 70%;
     text-align: center;
     
@@ -115,6 +121,8 @@ color: white;
 .inicioBkg {
     height: 400px;
     position:absolute;
+    width: 100%;
+    object-fit: cover;
 }
 
 
@@ -300,6 +308,19 @@ article.articleGrid3{
         font-size: 1.5rem;
     }
 
+    .sectionGrid{
+        height: 100%;
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas:"a1"
+                            "a2"
+                            "a3";
+        grid-column-gap: 20px;
+        grid-row-gap: 10px;
+        padding: 10px;
+        box-sizing: border-box;
+    }
 }
 
 
